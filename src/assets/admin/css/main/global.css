@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*//全局*/
+.fg-clear {
+  clear: both; }
+
+.clear-both::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+/*//搜索按钮*/
+.search-button {
+  display: block; }
+
+.search-button-layer {
+  height: 0;
+  transition: all .2s;
+  transition-delay: 1.5s;
+  overflow: hidden; }
+
+.search-layer:hover .search-button-layer {
+  transition-delay: 0s;
+  height: 25px;
+  display: block; }
+
+.sp-thin {
+  margin: 10px 0;
+  width: 100%; }
+
+.search-layer {
+  width: 1600px; }
+
+.search-layer label, .thin-padding {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#header > :first-child, aside {
+  width: 180px !important; }
+
+#main {
+  margin-left: 180px; }
+
+#main::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+#ribbon {
+  min-height: 35px; }
+
+#ribbon .breadcrumb {
+  padding: 10px 34px 5px 0 !important; }
+
+.inEdit {
+  background-color: #efc; }
+
+.el-upload__input {
+  display: none !important; }
+
+.el-single-image {
+  max-width: 100%;
+  max-height: 100%; }
+
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,107 @@
+.passwordIcon{
+  display: inline-block;
+  position: absolute;
+  left:263px;
+  width: 30px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 9;
+  background: url(../../../assets/admin/images/u2547.png) no-repeat center;
+  background-size: auto;
+}
+.storeIcon{
+  display: inline-block;
+  position: absolute;
+  left:263px;
+  width: 30px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 9;
+  background: url(../../../assets/admin/images/u5355.png) no-repeat center;
+  background-size: auto;
+}
+
+.percent{
+  line-height: 36px;
+  font-size: 16px;
+  margin-left:3px;
+}
+#staff{
+  overflow: hidden;
+  width: 100%;
+}
+.staffLeft{
+  .el-tree{
+    border:0;
+    padding-left: 40px;
+  }
+}
+.staffMenu{
+  .el-menu{
+    background:white;
+    .el-menu-item-group__title{
+      padding-top:0 !important;
+    }
+    .el-menu-item{
+      height:30px;
+      line-height:30px;
+      padding-left:0 !important ;
+    }
+  }
+  background: rgba(255, 255, 255, 1);
+  min-height: 600px;
+  border-radius: 0 0 5px 5px;
+  .staffMenuList{
+    border-bottom: 1px solid rgb(249, 246, 246);
+    padding:10px 10px 10px 30px;
+  }
+  h3{
+    width: 100%;
+    font-weight: 700;
+    width: 100%;
+    font-style: normal;
+    font-size: 14px;
+    color: #515D6B;
+    height: 40px;
+    line-height: 40px;
+    position:relative;
+    span{
+      background: url(../../../assets/admin/images/u17.png) no-repeat center;
+      position:absolute;
+      right:5px;
+      top:50%;
+      margin-top:-6px;
+      display: inline-block;
+      height: 14px;
+      width: 14px;
+      cursor: pointer;
+    }
+    .spanActive1{
+      background: url(../../../assets/admin/images/u3076.png) no-repeat center;
+      background-size:auto;
+    }
+    .spanActive2{
+      background: url(../../../assets/admin/images/u3076.png) no-repeat center;
+      background-size:auto;
+    }
+  }
+}
+.staffRight{
+  border-radius:5px;
+  min-height:650px;
+  background:rgba(255, 255, 255, 1);
+  box-shadow: -4px 5px 8px rgba(79, 162, 255, 0.0784313725490196);
+  .staffRightTabTop{
+    width: 100%;
+    background: #f6f6f6;
+    min-height: 605px;
+  }
+  .staffRightTabTable{
+    padding: 0 20px;
+    .el-table{
+      border-radius: 5px 5px 0 0
+    }
+
+  }
+
+}

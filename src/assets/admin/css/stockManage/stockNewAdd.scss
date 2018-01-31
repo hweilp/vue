@@ -1,0 +1,33 @@
+#enterStockAdd {
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 20px;
+
+  .stock {
+    background: rgba(246, 246, 246, 1);
+    height: 650px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    .operation {
+      width: auto;
+      display: inline-block;
+    }
+    .enterStockAddTopForm{
+      margin-top: 5px;
+      width: 1518px;
+      height: 140px;
+      background-color: rgba(255, 255, 255, 1);
+      box-sizing: border-box;
+      border: 1px solid rgba(231, 230, 235, 1);
+      border-radius: 5px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      padding-top: 16px;
+      padding-left: 48px;
+    }
+    .enterStockAddTable{
+      width: 1518px;
+    }
+  }
+}

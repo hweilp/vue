@@ -1,0 +1,360 @@
+/*//全局*/
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, Sans-Serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f1f2f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fg-clear {
+  clear: both;
+}
+
+.clear-both::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.page-footer {
+  display: none;
+}
+
+.fg-content-title {
+  font-size: 18px;
+  line-height: 40px;
+  height: 45px;
+  padding-top: 5px;
+  padding-left: 25px;
+}
+
+/*
+content-layer
+*/
+.fg-content-detail {
+  padding: 20px 20px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+
+}
+
+.fg-content-bar {
+  padding: 20px 20px;
+  background-color: #FFF;
+  margin-bottom: 10px;
+}
+
+.fg-content-opr {
+  padding: 10px 0;
+}
+
+.fg-content-table {
+  margin: 10px 0;
+}
+
+.fg-content-search {
+  width: 280px !important;
+  margin-left: 10px;
+}
+
+.fg-menu-group {
+  width: 200px;
+}
+
+/*整体样式布局*/
+.container {
+  display: block;
+  vertical-align: top;
+  padding: 10px;
+  > .content {
+    -webkit-box-shadow: 0px 2px 10px 0px #e1e1e1;
+    -moz-box-shadow: 0px 2px 10px 0px #e1e1e1;
+    box-shadow: 0px 2px 10px 0px #e1e1e1;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+}
+
+/*element-ui*/
+
+.el-upload__input {
+  display: none !important;
+}
+
+.el-single-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+//input框默认宽度
+
+.el-form-item__content>.el-input{
+  width: 360px
+}
+.el-autocomplete{
+  width: 360px;
+  margin-left: 0!important;
+}
+.el-select{
+  width: 115px;
+  margin-right: 0px;
+}
+.el-select-dropdown{
+  width: 115px
+}
+/* 搜索框 */
+.el-autocomplete {
+  margin-left: 10px;
+}
+
+//饿了么upload默认样式
+.el-upload--picture-card{
+  background: none!important;
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+  border-color: #20a0ff;
+}
+
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px !important;
+  text-align: center;
+}
+
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+
+.noAfter {
+  .el-form-item.is-required.el-form-item__label:after {
+    content: '' !important;
+  }
+}
+
+/* 弹出框头部样式 */
+.el-dialog {
+  border-radius: 5px !important;
+
+  //.el-input {
+  //  width: 360px !important;
+  //}
+  .place {
+    .el-select {
+      .el-input {
+        width: 114px !important;
+      }
+    }
+  }
+}
+
+.el-dialog--small {
+  border-radius: 5px 5px 0 0 !important;
+}
+.el-dialog__body{
+  overflow: hidden;
+}
+.el-dialog__header {
+  /* padding: 10px 20px !important;*/
+  /* background:rgba(79, 162, 255, 1);
+   color: white;*/
+  border-radius: 5px 5px 0 0;
+  .el-icon-close:hover {
+    /* color:white;*/
+  }
+  span {
+    //color: white;
+  }
+}
+
+// 树形控件选中高亮
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content{
+  background-color: #20a0ff !important;
+  color: white;
+}
+// table 全选显现
+.el-table .hidden-columns {
+  visibility: visible !important;
+  z-index: 9 !important;
+  color: #1f2d3d;
+  font-weight: bold;
+  span {
+    position: absolute !important;
+    top: 10px !important;
+    display: inline-block;
+    width: 30px;
+    left: 40px;
+  }
+}
+
+//改变饿了么required左边星号固有样式
+.el-form-item.is-required .el-form-item__label:before {
+  content: "" !important;
+}
+
+.el-form-item.is-required .el-form-item__label:after {
+  content: "*" !important;
+  color: #ff4949;
+  margin-left: 4px;
+}
+
+.el-pagination {
+  margin-top: 20px !important;
+}
+
+//Tabs 标签页样式
+.el-tabs__header {
+  background-color: #FFF;
+  margin: 0 !important;
+}
+
+
+
+/* 去掉li 前字符 */
+.contentMain {
+  ul {
+    list-style: none;
+  }
+}
+
+.fg-search-input {
+  width: 360px !important;
+  margin-left: 10px;
+}
+
+
+.largeDialog .el-dialog.el-dialog--small{
+  width: 80%!important;
+}
+
+.advQueryPanel {
+  background: white;
+  border: 1px solid #e7e6eb;
+  padding: 20px 30px;
+  font-size: 14px;
+  color: #515D6B;
+  width:1200px;
+  margin-bottom: 10px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+}
+.commonPanel{
+  background: white;
+  border: 1px solid #e7e6eb;
+  padding: 20px 30px;
+  font-size: 14px;
+  color: #515D6B;
+  margin-bottom: 10px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* 高级查询连接时间 数量 金额 */
+.group{
+  .linkIcon{
+    text-align: center;
+    line-height: 36px;
+    color: #ceced6;
+    display: inline-block;
+  }
+  .el-form-item{
+    display: inline-block;
+  }
+  .el-input{
+    width: 170px !important;
+  }
+}
+
+// 表格单元格点击
+.el-table .cell p {
+  span {
+    color: rgb(77, 165, 255);
+    cursor: pointer;
+
+    &:hover{
+      text-decoration-line: underline;
+    }
+  }
+}
+
+//操作第一个子元素距左边距离
+.fg-content-opr{
+  div{
+    &:first-child{
+      margin-left: 0!important;
+    }
+  }
+  button{
+    &:first-child{
+      margin-left: 0!important;
+    }
+  }
+}
+//input信息查询选项卡Icon
+.fa-ellipsis-h{
+  position: absolute;
+  right: 11px;
+  top: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  background: rgba(255,255,255,1);
+}
+//input label距离input框距离
+.el-form--inline .el-form-item__label{
+  margin-right: 12px;
+
+}
+
+
+// 只读input
+.readOnly{
+  input{
+    border-color: #bfcbd9 !important;
+    //border: none;
+    //border-bottom: 1px solid #bfcbd9 ;
+    //border-radius: 0;
+  }
+  .el-input__inner:hover{
+    border-color: #bfcbd9 !important;
+
+  }
+  .el-input__inner:focus{
+    outline: 0;
+    border-color: #bfcbd9 !important;
+
+  }
+}
+.slideUp{
+  &:hover{
+    color: #20a0ff;
+  }
+}

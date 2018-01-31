@@ -1,0 +1,169 @@
+
+
+
+//icon
+.icon{
+  display: inline-block;
+  background-size: auto;
+  position: absolute;
+  z-index: 1;
+  font-size: 24px;
+  height: 25px;
+  line-height: 100%;
+  right: 73px;
+  top: 7px;
+  background: white;
+  cursor: pointer;
+}
+.kindIcon{
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  top: 2px;
+  background: url(../../../assets/admin/images/u10.png) no-repeat center;
+}
+
+// 密码图标
+.passwordIcon{
+  position: absolute;
+  left:325px;
+  width: 30px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 9;
+  background: url(../../../assets/admin/images/u2547.png) no-repeat center;
+}
+//可打开弹出框图标
+.dialogIcon{
+  position: absolute;
+  left:325px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  top:3px;
+  z-index: 9;
+  background: white url(../../../assets/admin/images/u5355.png) no-repeat center;
+}
+// 上传图片
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+}
+
+//打开列表图标
+.openDropDownIcon{
+  background: url(../../../assets/admin/images/u17184.png) no-repeat center;
+  position:absolute;
+  right:5px;
+  top:50%;
+  margin-top:-6px;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+.openActiveIcon{
+  background: url(../../../assets/admin/images/u3076.png) no-repeat center;
+  background-size:auto;
+}
+
+
+
+
+.el-tab-pane{
+  padding-top: 10px;
+}
+
+// 左侧目录菜单
+.menu{
+  background: rgba(255, 255, 255, 1);
+  min-height: 600px;
+  border-radius: 0 0 5px 5px;
+  .menuList{
+    border-bottom: 1px solid rgb(249, 246, 246);
+    padding:10px 10px 10px 30px;
+  }
+  .menuListTitle{
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    color: #515D6B;
+    height: 40px;
+    line-height: 40px;
+    position:relative;
+
+  }
+  .el-menu {
+    background: white;
+    .el-menu-item-group__title {
+      padding-top: 0 !important;
+    }
+    .el-menu-item {
+      height: 30px;
+      line-height: 30px;
+      padding-left: 0 !important;
+    }
+  }
+}
+
+
+
+
+// 门店弹出框修改
+.openDialog{
+  .el-dialog__body{
+    .el-form{
+      overflow: hidden;
+      .el-form-item{
+        float: left;
+        .el-button--primary{
+
+        }
+      }
+    }
+  }
+}
+
+
+.group{
+  .linkIcon{
+    text-align: center;
+    line-height: 36px;
+    color: #ceced6;
+    display: inline-block;
+  }
+  .el-form-item{
+    display: inline-block;
+  }
+  .el-input{
+    width: 170px !important;
+  }
+}
+
+.advQueryPanel{
+  .el-col{
+
+      float: left;
+
+  }
+}
+
+
+
+// 过渡效果
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}

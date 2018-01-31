@@ -1,0 +1,62 @@
+.el-tabs__item{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #182737;
+  padding:0 30px;
+}
+.el-tabs__content{
+  padding: 0 30px;
+}
+.el-checkbox{
+  padding: 5px 0px 5px 20px;
+}
+.el-checkbox-group{
+  padding:0 20px;
+}
+
+.powerKind{
+  position: relative;
+}
+.rePowerKind{
+  padding:0 30px;
+  label{
+    width: 100%;
+    border-top:1px solid #eae8e8;
+    margin: 5px 0 10px 0;
+  }
+  .el-checkbox__inner{
+    transform: scale(.9);
+  }
+}
+.reRePowerKind{
+  padding:0 30px;
+  label{
+    border: 0;
+    width: auto;
+    margin: auto;
+  }
+
+}
+.reReKindTitle{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #5B6B7A;
+}
+.oprList{
+  padding-left: 30px;
+}
+.openShow{
+  position: absolute;
+  right:10px;
+  i{
+    top:20px;
+  }
+}
+.active{
+  background: url(../../../assets/admin/images/u3076.png) no-repeat center;
+}
+
+
+

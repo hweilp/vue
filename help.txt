@@ -1,0 +1,6 @@
+改动 ： 本地数据模拟，根目录下增加list.json文件   改动位置： build/dev-server.js
+	端口号 改为 8082    				     config/config.js
+	调用模拟数据域名接口 http://www.fabientech.com       src/assets/admin/js/helper.js
+	增加common.js公用js方法和rules.js表单验证规则        src/assets/admin/resource
+	组件改动list.vue实现表格操作 增加搜索建议功能        src/view/admin/categories
+	增加listLeftMenu.vue侧边菜单  			     src/view/admin/categories

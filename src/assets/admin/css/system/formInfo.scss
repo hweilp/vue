@@ -1,0 +1,32 @@
+#set {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: auto;
+  background: inherit;
+  background-color: rgba(246, 246, 246, 1);
+  box-shadow: -4px 5px 8px rgba(79, 162, 255, 0.0784313725490196);
+  border-radius: 5px;
+  color: #1E2E3E;
+  font-size: 13px;
+  margin-right: 20px;
+  .setTitle {
+    width: 100%;
+    background: #FFF;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 33px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #setForm {
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 53px;
+    .site{
+      display: inline-block;
+    }
+  }
+}

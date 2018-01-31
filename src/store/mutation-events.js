@@ -1,0 +1,21 @@
+export const SET_USER_SESSION = 'SET_USER_SESSION'
+export const REMOVE_USER_SESSION = 'REMOVE_USER_SESSION'
+export const INIT_USER_MENU = 'INIT_USER_MENU'
+export const INIT_USER_INFO = 'INIT_USER_INFO'
+export const INIT_USER_POWER = 'INIT_USER_POWER'
+export const INIT_USER_BRAND = 'INIT_USER_BRAND'
+export const INIT_USER_UNIT = 'INIT_USER_UNIT'
+export const INIT_USER_SUPPLIER = 'INIT_USER_SUPPLIER'
+export const INIT_USER_CATEGORY = 'INIT_USER_CATEGORY'
+
+
+
+
+
+
+
+
+
+
+//actions
+export const USER_LOGIN = 'USER_LOGIN'

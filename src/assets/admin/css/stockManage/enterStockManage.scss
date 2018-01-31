@@ -1,0 +1,96 @@
+#maincontent {
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 20px;
+
+  .stock {
+    background: rgba(246, 246, 246, 1);
+    height: 650px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+
+    .operation {
+      width: auto;
+      display: inline-block;
+    }
+
+    .advQuery {
+      display: inline-block;
+      width: 120px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      display: inline-block;
+      background: #FFF;
+      border: 1px solid #bfcbd9;
+      color: #1f2d3d;
+      margin-left: 20px;
+      cursor: pointer;
+      position: absolute;
+      z-index: 9;
+      border-radius: 3px 3px 0 0;
+      top: 20px;
+
+      i {
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        transition: transform .3s;
+        transform-origin: center 70%;
+        color: #bcbcbc;
+      }
+
+    }
+    .advQueryArea {
+      background: white;
+      border: 1px solid #e7e6eb;
+      padding: 10px 30px;
+      font-style: normal;
+      font-size: 14px;
+      color: #515D6B;
+      line-height: 20px;
+      position: relative;
+      border-radius: 5px;
+      width: 1112px;
+      margin-top: 5px;
+
+      &:hover {
+        background: rgba(242, 242, 242, 1);
+
+      }
+
+      .slideUp {
+        margin: auto;
+        text-align: center;
+
+        span {
+          cursor: pointer;
+        }
+
+      }
+    }
+    .active1 {
+      border-bottom: none;
+      height: 42px;
+
+      i {
+        transform: rotateZ(180deg);
+      }
+
+    }
+    .stockList {
+      margin-top: 20px;
+
+      .el-table .hidden-columns {
+        visibility: visible;
+        z-index: 999;
+        left: 40px;
+        font: 600 14px/50px "";
+      }
+
+
+
+    }
+  }
+}

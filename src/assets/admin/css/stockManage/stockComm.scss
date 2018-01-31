@@ -1,0 +1,285 @@
+@import "../../../assets/admin/css/main/param";
+.el-date-editor.el-input{
+  width: 100%;
+}
+.el-input__icon{
+  cursor: pointer;
+}
+
+#stockDateCollect,#outEnterStockDetail,#stockDateCollect,#stockMonthCollect,#stockCost{
+  //overflow: hidden;
+  width: 100%;
+  padding: 10px 20px;
+  .contentMain{
+    padding: 0;
+    overflow: hidden;
+    background: rgba(246, 246, 246, 1);
+    min-height: 650px;
+    width: 100%;
+
+  }
+}
+#stockCheck{
+  padding: 10px 20px;
+}
+.contentPadding{
+  padding: 10px 20px;
+}
+.contentMain{
+  overflow: hidden;
+  background: rgba(246, 246, 246, 1);
+  min-height: 650px;
+  width: 100%;
+  padding: 20px;
+}
+.contentMain_noPadding{
+  overflow: hidden;
+  background: rgba(246, 246, 246, 1);
+  min-height: 650px;
+  width: 100%;
+  .active1{
+    background: white;
+    border-bottom: 0;
+    height: 42px;
+    border-radius: 4px 4px 0 0;
+    position: absolute;
+    vertical-align: middle;
+    z-index: 9;
+    span{
+      i{
+        transform: rotateZ(180deg);
+      }
+
+    }
+  }
+}
+
+.checkQuery{
+  overflow: hidden;
+  position: relative;
+}
+.checkQueryLeft{
+  float: left;
+}
+.checkQueryRight{
+  float: left;
+  height: 36px;
+  width: 120px;
+  text-align: center;
+  border: 1px solid #bfcbd9;
+  line-height: 36px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  left:440px;
+  top:20px;
+  span{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #1f2d3d;
+    line-height: 36px;
+    i{
+      height: 20px;
+      width: 10px;
+      display: inline-block;
+      color: rgba(188,188,188,1);
+      font-size: 14px;
+      transition: transform .5s;
+      background: url(../../../assets/admin/images/u132.png) no-repeat center;
+      background-size: auto;
+      position: absolute;
+      top: 9px;
+      right: 12px;
+    }
+  }
+}
+
+.contentMain .active1{
+  background: white;
+  border-bottom: 0;
+  height: 42px;
+  border-radius: 4px 4px 0 0;
+  position: absolute;
+  vertical-align: middle;
+  z-index: 9;
+  span{
+    i{
+      transform: rotateZ(180deg);
+    }
+
+  }
+}
+.hightSearchContent{
+  padding: 0 20px;
+  margin-top: -15px;
+}
+.entrySearch{
+  background: white;
+  border: 1px solid rgba(231, 230, 235, 1);
+  padding: 10px 30px;
+  font-style: normal;
+  font-size: 14px;
+  color: #515D6B;
+  line-height: 20px;
+  position: relative;
+  border-radius: 5px;
+  &:hover{
+    background: rgba(242,242,242,1);
+
+  }
+  .el-form{
+    overflow: hidden;
+    .el-form-item{
+      float: left;
+      width: 500px;
+    }
+  }
+  .searchButton{
+    margin-left: 50%;
+  }
+  .cutOut{
+    margin-left: 50%;
+    cursor: pointer;
+  }
+  .money{
+    .moneyIcon{
+      width: 4%;
+      text-align: center;
+      line-height: 36px;
+      color: #ceced6;
+      display: inline-block;
+      float: left;
+    }
+    .el-form-item{
+      float: left;
+      width: 48%;
+    }
+  }
+}
+.openDialog {
+  .el-dialog {
+    border-radius: 5px;
+  }
+  .el-form {
+    overflow: hidden;
+    .el-form-item {
+      float: left;
+      width: 260px;
+    }
+  }
+  .el-dialog__header {
+    background: rgba(79, 162, 255, 1);
+    color: white;
+    padding: 10px 20px 10px;
+    border-radius: 5px 5px 0 0;
+    .el-icon-close:hover {
+      color: white;
+    }
+    .el-dialog__title {
+      color: white;
+      height: 100%;
+    }
+  }
+  .el-dialog__body {
+    padding: 10px 20px;
+    .el-input {
+      width: 250px;
+    }
+    .el-textarea__inner {
+      width: 250px;
+    }
+    .el-table {
+      border-radius: 5px;
+    }
+  }
+}
+
+
+
+.operation {
+  width: auto;
+  display: inline-block;
+}
+.advQuery{
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #bfcbd9;
+  color: #1f2d3d;
+  margin-left: 20px;
+  cursor: pointer;
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 4px;
+  z-index: 9;
+  i{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: #bcbcbc;
+    transition: transform .3s;
+    transform-origin: center 70%;
+  }
+}
+
+.advQueryArea{
+  background: white;
+  border: 1px solid #e7e6eb;
+  padding: 10px 30px;
+  font-style: normal;
+  font-size: 14px;
+  color: #515D6B;
+  line-height: 20px;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 5px;
+  &:hover{
+    background: rgba(242,242,242,1);
+  }
+  .slideUp{
+    margin: auto;
+    text-align: center;
+    span{
+      cursor: pointer;
+    }
+  }
+}
+.adQueryList{
+  margin:10px 0;
+
+}
+
+.stockList{
+  margin-top: 20px;
+  .el-table .hidden-columns{
+    visibility: visible;
+    z-index:999;
+    left:40px;
+    font:600 14px/50px "";
+  }
+  .el-form-item.is-required .el-form-item__label:before{
+    content: "";
+  }
+  .el-dialog__header{
+    padding: 10px 20px;
+  }
+  .el-pagination{
+    margin-top: 20px;
+  }
+}
+.searchInputIcon{
+  display: inline-block;
+  position: absolute;
+  right:0;
+  width: 30px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 9;
+  background: url(../../../assets/admin/images/u5355.png) no-repeat center;
+  background-size: auto;
+}

@@ -1,0 +1,60 @@
+/*全局*/
+$header-light-font-size: 16px;
+$header-light-font-color: #BDC7D1;
+
+/*
+基础样式集合
+*/
+//板块阴影
+%base-box-shadow {
+  -webkit-box-shadow: 0px 2px 10px 0px #e1e1e1;
+  -moz-box-shadow: 0px 2px 10px 0px #e1e1e1;
+  box-shadow: 0px 2px 10px 0px #e1e1e1;
+}
+
+/*
+基础mixin
+*/
+
+/*
+左右布局 左侧固定 右侧适应
+格式：
+    <div id="main" class="fg-table-type" role="main">
+      <div class="container-left">
+        <nav class="content-left">
+          left
+        </nav>
+      </div>
+      <div class="container-right">
+        <div class="content-right">
+          right
+        </div>
+      </div>
+    </div>
+*/
+@mixin table-container($leftWidth,$leftWrapperMargin) {
+  display: inline-block;
+  width: 100%;
+  .container-left {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    width: $leftWidth + 2*$leftWrapperMargin;
+    padding: $leftWrapperMargin;
+    > .content-left {
+      background-color: #fff;
+      @extend %base-box-shadow
+    }
+  }
+
+  .container-right {
+    display: block;
+    vertical-align: top;
+    margin-left: 3*$leftWrapperMargin + $leftWidth;
+    padding: $leftWrapperMargin;
+    > .content-right {
+      background-color: #fff;
+      @extend %base-box-shadow
+    }
+  }
+}
